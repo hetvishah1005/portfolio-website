@@ -114,18 +114,11 @@ function App() {
             </div>
           </div>
           <div className="hero-image">
-            <div className="profile-photo-container">
-              <img 
-                src="src/assets/images/hetvi.jpg"  // Update this path
-                alt="Hetvi Shah"
-                className="profile-photo"
-              />
-              <div className="tech-stack-animation">
-                <div className="tech-icon react"><Code size={24} /></div>
-                <div className="tech-icon python"><Server size={24} /></div>
-                <div className="tech-icon java"><Database size={24} /></div>
-                <div className="tech-icon mongo"><Globe size={24} /></div>
-              </div>
+            <div className="tech-stack-animation">
+              <div className="tech-icon react"><Code size={24} /></div>
+              <div className="tech-icon python"><Server size={24} /></div>
+              <div className="tech-icon java"><Database size={24} /></div>
+              <div className="tech-icon mongo"><Globe size={24} /></div>
             </div>
           </div>
         </div>
